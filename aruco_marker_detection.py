@@ -1,14 +1,13 @@
 '''
-Author: Arjun Viswanathan
+Author: Arjun Viswanathan, John Dale
 ECE 566 Final Project
 Date created: 11/21/23
-Date last modified: 11/21/23
+Date last modified: 12/9/23
 Description: base code for detecting ArUco markers off a live camera feed
 '''
 
 import cv2
 import scipy.io as sio
-import pyrealsense2 as rs
 import numpy as np
 
 # Load camera parameters from MATLAB
