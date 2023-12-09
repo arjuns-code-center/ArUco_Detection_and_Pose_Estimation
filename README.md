@@ -1,6 +1,13 @@
-# ECE 566 Final Project: Image Processing Techniques in ArUco Marker Detection and Pose Estimation
-Arjun Viswanathan and John Dale
+# Image Processing Techniques in ArUco Marker Detection and Pose Estimation
+ECE 566 Final Project
 
+# Authors
+Arjun Viswanathan (arjuns-code-center) \
+John Dale (JohnDale02)
+
+University of Massachusetts Amherst Computer Engineering
+
+# Introduction
 We use the OpenCV-Python library to detect a commonly used fiducial marker called ArUco. We perform pose estimation to determine the rotational and translation vectors containing all information necessary for our robot to localize to the marker's center. To do this, we need to first calibrate the camera that is being used to detect the markers. 
 
 Necessary installs (if you do not have them already):
